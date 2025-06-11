@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Live Trading Strategies</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #0f0f0f;
+      animation: fadeIn 2s ease-in-out;
+    }
+    nav {
+      background-color: #e0e0e0;
+      padding: 15px;
+      animation: slideDown 1.5s ease-in-out;
+    }
+    nav a {
+      color: #0f0f0f;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00cc00;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .btn {
+      padding: 15px 25px;
+      margin-top: 20px;
+      background-color: #00cc00;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      background-color: #cc0000;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-100%); }
+      to { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>📈 Live Trading Strategies Hub</header>
+  <nav>
+    <a href="strategies.html">Strategies</a>
+    <a href="signals.html">Live Signals</a>
+    <a href="news.html">Market News</a>
+    <a href="about.html">About</a>
+  </nav>
+  <section>
+    <h2>Welcome to Your One-Stop Trading Dashboard</h2>
+    <p>Real-time stock alerts, top trading strategies (including VWAP), and market-moving news — all in one sleek site.</p>
+    <button class="btn" onclick="window.location.href='signals.html'">Check Live Signals 🚀</button>
+  </section>
+</body>
+</html>
